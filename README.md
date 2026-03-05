@@ -1,58 +1,62 @@
-# Projets-Cyber
+# 🔐 Projets Cyber
 
 Ce repository contient différents laboratoires réalisés dans le cadre de mon apprentissage en cybersécurité.
 
-L'objectif de ce projet est de documenter des expérimentations pratiques liées à l'administration système, la sécurité informatique, l'automatisation avec PowerShell et l'utilisation d'Active Directory dans un environnement de laboratoire.
+L'objectif est de documenter des expérimentations pratiques en administration système, Active Directory, automatisation PowerShell et sécurité informatique.
 
-Technologies utilisées
+---
 
-Active Directory
+# 🛠️ Technologies utilisées
 
-PowerShell
+* Active Directory
+* PowerShell
+* Windows Server
+* Group Policy (GPO)
+* Virtualisation (VMware / VirtualBox)
 
-Windows Server
+---
 
-Group Policy (GPO)
+# 📂 Structure du repository
 
-Virtualisation (VMware / VirtualBox)
-
-Structure du repository
-
+```
 Projets-Cyber
 │
-├── docs → documentation et notes techniques
-├── labs → laboratoires pratiques
+├── docs          → documentation et notes techniques
+├── labs          → laboratoires pratiques
 └── README.md
+```
 
-Labs
-Lab 01 – Automatisation GPO avec PowerShell
+---
+
+# 🧪 Labs
+
+## Lab 01 — Automatisation GPO avec PowerShell
 
 Création d’un script PowerShell permettant de créer automatiquement une stratégie de groupe (GPO) afin de bloquer l'accès au panneau de configuration pour les utilisateurs d’un domaine Active Directory.
 
-Technologies utilisées :
+**Technologies utilisées :**
 
-Active Directory
+* Active Directory
+* PowerShell
+* Group Policy
 
-PowerShell
+📁 Emplacement du lab :
+`labs/lab01-gpo-powershell`
 
-Group Policy
+---
 
-Emplacement du lab :
-labs/lab01-gpo-powershell
+# 🎯 Objectif du repository
 
-Objectif du repository
+Ce projet vise à développer des compétences pratiques en cybersécurité :
 
-Ce repository a pour but de démontrer des compétences pratiques en cybersécurité, notamment :
+* administration Active Directory
+* automatisation avec PowerShell
+* gestion des stratégies de groupe (GPO)
+* documentation technique de laboratoires de sécurité
 
-l'administration d'environnements Active Directory
+---
 
-l'automatisation de tâches avec PowerShell
+# 👤 Auteur
 
-la gestion et la sécurisation des stratégies de groupe (GPO)
-
-la documentation technique de laboratoires de sécurité
-
-Auteur
-
-Victor
+**Victor**
 Étudiant en cybersécurité
