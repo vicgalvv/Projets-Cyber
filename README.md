@@ -1,3 +1,8 @@
+![Active Directory](https://img.shields.io/badge/Active%20Directory-Lab-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-Scripting-blue)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Learning-red)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-2025-blue)
+
 # 🔐 Projets Cyber
 
 Ce repository contient différents laboratoires réalisés dans le cadre de mon apprentissage en cybersécurité.
