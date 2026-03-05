@@ -1,6 +1,8 @@
+# Importation des modules AD et GPO
 Import-Module GroupPolicy
 Import-Module ActiveDirectory
 
+# Donner le nom à notre GPO et récupérer le nom du domaine avec son Distinguished Name
 $GPOName = "Bloquer_Panneau_Controle"
 $DomainDN = (Get-ADDomain).DistinguishedName
 
@@ -22,4 +24,5 @@ Set-GPRegistryValue `
 New-GPLink `
 -Guid $gpo.Id `
 -Target $DomainDN `
+
 -LinkEnabled Yes
