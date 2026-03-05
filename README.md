@@ -14,19 +14,6 @@ L'objectif est de documenter des expérimentations pratiques en administration s
 * Group Policy (GPO)
 * Virtualisation (VMware / VirtualBox)
 
----
-
-# 📂 Structure du repository
-
-```
-Projets-Cyber
-│
-├── docs          → documentation et notes techniques
-├── labs          → laboratoires pratiques
-└── README.md
-```
-
----
 
 # 🧪 Labs
 
@@ -58,5 +45,5 @@ Ce projet vise à développer des compétences pratiques en cybersécurité :
 
 # 👤 Auteur
 
-**Victor**
+**Victor Galipeau**
 Étudiant en cybersécurité
