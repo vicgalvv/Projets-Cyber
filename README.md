@@ -35,6 +35,18 @@ Création d’un script PowerShell permettant de créer automatiquement une stra
 📁 Emplacement du lab :
 `labs/lab01-gpo-powershell`
 
+## Lab 02 - Homelab Active Directory
+
+Création d'une structure Active Directory complète (Utilisateur, Groupes Globaux, Domaine local et GPO), structure organisationnelle, structure réseau et sécurité. Création d'un serveur de fichier pour partage SMB
+
+**Technologies utilisées :**
+
+* Active Directory
+* Windows 11
+* DHCP
+* DNS
+* SMB
+* GPO
 ---
 
 # 🎯 Objectif du repository
