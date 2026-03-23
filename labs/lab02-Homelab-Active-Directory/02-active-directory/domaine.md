@@ -6,7 +6,7 @@
 
 - Nom : TECHNOVA
 - FQDN : technova.local
-- Niveau : Windows Server 2016
+- Niveau : Windows Server 2025
 
 ---
 
