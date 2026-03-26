@@ -1,3 +1,29 @@
+<#
+================================================================================
+Nom du script  : AD-Audit-Users.ps1
+Description    : Audit des comptes Active Directory afin d’identifier les comptes
+                 inactifs et les configurations à risque (ex : mot de passe
+                 n’expirant jamais).
+
+Auteur         : Victor Galipeau
+Date           : 2026-03-25
+Version        : 1.0
+
+Prérequis      :
+- Module ActiveDirectory installé
+- Droits de lecture sur Active Directory
+- PowerShell 5.1 ou supérieur
+
+Sortie         :
+- Fichier CSV contenant les résultats de l’audit
+
+Utilisation    :
+- Exécuter le script dans un environnement membre du domaine
+- Le fichier sera généré dans le même dossier que le script
+
+================================================================================
+#>
+
 # Import module Active Directory
 Import-Module ActiveDirectory
 
@@ -23,7 +49,7 @@ $OutputPath = Join-Path $PSScriptRoot "Audit_AD_Users.csv"
 
 $Report | Export-Csv $OutputPath -NoTypeInformation
 
-Write-Host "Audit terminé. Fichier exporté dans : $OutputPath"
+Write-Host "Audit terminé. Fichier exporte dans : $OutputPath"
 
-Write-Host "Audit termine. Fichier exporte."
+
 
