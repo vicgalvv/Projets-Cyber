@@ -16,30 +16,22 @@ def scanner_reseau(reseau):
     paquet = ether / arp
 
     # Envoi des paquets et récupération des réponses
-    resultats = srp(
-        paquet,
-        timeout=2,
-        verbose=False
-    )[0]
+    resultats = srp(paquet,timeout=2,verbose=False)[0] 
 
     # Liste des machines trouvées
     machines = []
 
     # Traitement des réponses
     for _, reponse in resultats:
-        machines.append({
-            "ip": reponse.psrc,
-            "mac": reponse.hwsrc
-        })
-
+        machines.append({"ip": reponse.psrc,"mac": reponse.hwsrc})
     return machines
 
 
 # Point d'entrée du programme
 if __name__ == "__main__":
 
-   
-    reseau = "10.100.200.93/24"
+    # Remplacer cette section par votre sous-réseau
+    reseau = "10.100.200.0/24"
 
     print("Scan en cours...\n")
 
